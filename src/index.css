@@ -3,6 +3,16 @@
   padding: 0;
 }
 
+:root{
+  --dark-blue: #11112b;
+  --light-gray: #D5D9E5;
+  --gradinet-light-blue: linear-gradient(to bottom, rgba(146, 222, 237, 100%), rgba(146, 222, 237, 0%));
+  --gradient-blue:linear-gradient(to right, #92DEED, #FFFFFF);
+  --gradinet-black: linear-gradient(to bottom, rgba(17,17,43,100%), rgba(17,17,43, 0%));
+  --gradinet-white: linear-gradient(to right, rgba(255,255,255, 30%), rgba(255,255,255, 10%));
+  --gradinet-stroke: linear-gradient(to right, rgba(255,255,255, 100%), rgba(255,255,255, 20%));
+}
+
 html{
   width: 100%;
   overflow-x: hidden;
