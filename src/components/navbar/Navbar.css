@@ -1,13 +1,17 @@
 .navbar{
     width: 100%;
     position: absolute;
+    left: 0;
     top: 0;
+    z-index: 1;
     font-family: 'Space Grotesk';
+    color: var(--white);
 }
 
 .navbar_inner{
     margin: 0 auto;
-    width: 1400px;
+    width: 100%;
+    max-width: 1200px;
     height: 60px;
 
     display: flex;

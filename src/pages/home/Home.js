@@ -1,14 +1,14 @@
 import React from 'react'
 
 import './home.css'
-import Navbar from '../../components/navbar/Navbar'
+import FirstSection from '../../components/firstSection/FirstSection'
 
 export default function Home() {
   return (
     <>
       <div className='home'>
           <div className='home_inner'>
-              <Navbar />
+              <FirstSection />
           </div>
       </div>
     

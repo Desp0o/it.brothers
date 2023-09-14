@@ -30,6 +30,7 @@ html{
 }
 
 body {
+  position: relative;
   width: 100%;
   overflow-x: hidden;
   margin: 0;
@@ -48,4 +49,13 @@ code {
 a{
   color: inherit;
   text-decoration: none;
+}
+
+.firstSVG{
+  position: absolute;
+  opacity: 0.25;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100vw;
 }
